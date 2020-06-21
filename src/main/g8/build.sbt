@@ -26,6 +26,7 @@ lazy val root = (project in file(".")).
       "org.apache.spark" %% "spark-sql" % "$sparkVersion$" % "provided",
       "org.apache.spark" %% "spark-sql-kafka-0-10" % "$sparkVersion$" % "provided",
       "org.apache.kafka" % "kafka-clients" % "2.3.1",
+      "com.typesafe" % "config" % "1.3.2",
       
 
       "org.scalatest" %% "scalatest" % "3.0.1" % "test",
