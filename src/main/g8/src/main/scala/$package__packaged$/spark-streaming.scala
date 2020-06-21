@@ -13,7 +13,7 @@ object stream_processing_app {
 	
 	val conf = ConfigFactory.load.getConfig(args(0))
 	
-	val kafka_topic_name = conf.getString("bootstrap.kafka.topic")
+	val kafka_topic_name = conf.getString("dev.kafka.topic")
     val kafka_bootstrap_servers = conf.getString("bootstrap.servers")
 	
 	 val spark = SparkSession.
