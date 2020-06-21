@@ -1,5 +1,6 @@
 # sparkProjectTemplate
 # Added spark-sql-kafka
+# Added typesafe config factory
 A [Giter8][g8] template for Scala Spark Projects.
 
 ## What this gives you
