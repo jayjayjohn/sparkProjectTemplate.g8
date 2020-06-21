@@ -1,4 +1,4 @@
-package com.example.sparkProject
+package $organization$.$name$
 
 import org.apache.spark.sql._
 import org.apache.spark.sql.types._
