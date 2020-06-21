@@ -1,4 +1,5 @@
 # sparkProjectTemplate
+# Added spark-sql-kafka
 A [Giter8][g8] template for Scala Spark Projects.
 
 ## What this gives you
